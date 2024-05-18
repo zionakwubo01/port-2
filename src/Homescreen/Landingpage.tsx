@@ -1,7 +1,7 @@
 const Landingpage = () => {
   return (
     <div
-      className="w-full min-h-[80vh] bg-black flex items-center justify-center"
+      className="w-full min-h-[80vh] bg-black flex items-center justify-center py-2"
       style={{ backgroundColor: "#FDF2E9" }}
     >
       <div className="w-[80%] h-full grid grid-cols-1 lg:grid-cols-2 ">
