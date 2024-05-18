@@ -24,7 +24,7 @@ const Landingpage = () => {
           </div>
         </div>
         <div className="col-span-1 flex items-center justify-center  order-first lg:order-last">
-          <div className="min-h-[400px] w-[70%] lg:w-[80%]  xl:w-[60%] border-[4px] border-dotted object-cover border-orange-500 bg-black">
+          <div className="h-[350px] w-[70%] lg:w-[80%]  xl:w-[60%] border-[4px] border-dotted object-cover border-orange-500 bg-black">
             {/* <img src={image} className="h-[100%] w-[100%] object-cont" /> */}
           </div>
         </div>
