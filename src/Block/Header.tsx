@@ -29,6 +29,11 @@ const Header = () => {
                 setToggle(!toggle);
               });
             }}
+            onTouchStart={() => {
+              document.startViewTransition(() => {
+                setToggle(!toggle);
+              });
+            }}
           >
             <MdMenu color="" />
           </div>
