@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { MdMessage } from "react-icons/md";
 import { useState } from "react";
 const Header = () => {
-  const [toggle, setToggle] = useState<boolean>(false);
+  const [toggle, setToggle] = useState<boolean>(true);
 
   return (
     <div
@@ -14,9 +14,11 @@ const Header = () => {
         <div className="font-mono text-[30px] ml-4">ZiA</div>
         <div className="flex gap-10 mr-4 items-center ">
           <Link to={"project"}>
-            <p className="font-medium text-[17px] hidden lg:flex">Home</p>
+            <p className="font-medium text-[17px] hidden lg:flex hover:text-orange-500">
+              Home
+            </p>
           </Link>
-          <p className="font-medium text-[17px] hidden lg:flex">About</p>
+          <p className="font-medium text-[17px] hidden lg:flex ">About</p>
           <p className="font-medium text-[17px] hidden lg:flex">Professional</p>
           <p className="font-medium text-[17px] hidden lg:flex">Projects</p>
           <div
@@ -46,10 +48,18 @@ const Header = () => {
           ""
         ) : (
           <div className="w-[100%] h-[350px] flex flex-col items-center gap-6 justify-center lg:hidden text-black bg-white absolute top-20  rounded-3xl">
-            <p className="font-medium text-[17px]  text-black">Home</p>
-            <p className="font-medium text-[17px] ">About</p>
-            <p className="font-medium text-[17px] ">Professional</p>
-            <p className="font-medium text-[17px] ">Projects</p>
+            <p className="font-medium text-[17px] hover:text-orange-500 cursor-pointer">
+              Home
+            </p>
+            <p className="font-medium text-[17px] hover:text-orange-500 cursor-pointer">
+              About
+            </p>
+            <p className="font-medium text-[17px] hover:text-orange-500 cursor-pointer">
+              Professional
+            </p>
+            <p className="font-medium text-[17px] hover:text-orange-500 cursor-pointer">
+              Projects
+            </p>
             <div
               className=" gap-2 w-[120px] h-[40px] rounded-3xl flex items-center justify-center text-[16px]  text-bold text-white"
               style={{ backgroundColor: "#EE6718" }}
