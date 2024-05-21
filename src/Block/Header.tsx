@@ -29,11 +29,6 @@ const Header = () => {
                 setToggle(!toggle);
               });
             }}
-            onTouchStart={() => {
-              document.startViewTransition(() => {
-                setToggle(!toggle);
-              });
-            }}
           >
             <MdMenu color="" />
           </div>
@@ -52,7 +47,7 @@ const Header = () => {
         {toggle ? (
           ""
         ) : (
-          <div className="w-[100%] h-[350px] flex flex-col items-center gap-6 justify-center lg:hidden text-black bg-white absolute top-20  rounded-3xl">
+          <div className="shadow-lg  w-[100%] h-[350px] flex flex-col items-center gap-6 justify-center lg:hidden text-black bg-white absolute top-20  rounded-3xl">
             <p className="font-medium text-[17px] hover:text-orange-500 cursor-pointer">
               Home
             </p>

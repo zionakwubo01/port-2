@@ -1,8 +1,8 @@
 const Gettoknow = () => {
   return (
     <div>
-      <div className="w-full min-h-[500px] flex items-center justify-center mt-[50px]">
-        <div className="w-[90%] min-h-[500px]  grid grid-rows-1 lg:grid-cols-2 gap-7">
+      <div className="w-full min-h-[500px] bg-white lg:min-h-[250px] flex items-center justify-center mt-[50px]">
+        <div className="w-[90%] min-h-[500px]  grid grid-rows-1 lg:grid-cols-2 gap-7 ">
           <div className=" flex flex-col gap-7 ">
             <h1 className="font-bold text-[30px] ">
               Get to Know me! --- My Skills
@@ -31,7 +31,7 @@ const Gettoknow = () => {
               Projects
             </div>
           </div>
-          <div className=" flex flex-col gap-40 h-[600px] md:h-[300px] lg:h-[600px] md:gap-10 lg:gap-40 xl:gap-20">
+          <div className=" flex  flex-col gap-40 h-[600px] md:h-[300px] lg:h-[600px] md:gap-10 lg:gap-40 xl:gap-20">
             <div className="w-full h-[60px] flex flex-row items-center gap-3 flex-wrap justify-center">
               <div className="hover:bg-orange-500 hover:text-white hover:transition-all duration-500 ease-in-out  h-[45px] text-[13px] w-[150px] bg-gray-300 rounded-full flex items-center justify-center font-medium">
                 HTML
