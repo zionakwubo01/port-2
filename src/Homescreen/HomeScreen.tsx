@@ -1,5 +1,7 @@
+import Footer from "../Block/Footer";
 import Gettoknow from "./Gettoknow";
 import Landingpage from "./Landingpage";
+import Mail from "./Mail";
 import Projects from "./Projects";
 
 const HomeScreen = () => {
@@ -8,6 +10,8 @@ const HomeScreen = () => {
       <Landingpage />
       <Gettoknow />
       <Projects />
+      <Mail />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,16 @@
+[
+  {
+    "project": "school management system",
+    "desc": "school management system that allows school to sign up sign student in and also post annnouncement, student can also view announcement and more",
+    "project1": "React Ts",
+    "project2": "Express js",
+    "project3": "nodejs & MongoDB"
+  },
+  {
+    "project": "Image library",
+    "desc": "image library is a place where you can upload images in jpg format, png and jpeg, and you can also view all image",
+    "project1": "cloudinary",
+    "project2": "multer/react",
+    "project3": "nodejs & MongoDB"
+  }
+]

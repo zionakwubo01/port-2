@@ -7,7 +7,7 @@ const Landingpage = () => {
     >
       <div className="w-[80%] h-full grid grid-cols-1 lg:grid-cols-2 mt-[100px] lg:mt-0">
         <div className="col-span-1 flex flex-col items-center justify-center gap-4 order-last lg:order-first">
-          <h1 className="font-bold text-[30px] lg:text-[35px] xl::text-[30px]">
+          <h1 className="font-bold text-[26px] lg:text-[35px] xl::text-[30px]">
             HI, I'M ZION AKWUBO
           </h1>
           <p
@@ -17,12 +17,14 @@ const Landingpage = () => {
             A Software Engineer focused on building the frontend and backend of
             websites that leads to the success of the overall product
           </p>
-          <div
-            className="w-[150px] h-[50px] rounded-3xl flex items-center justify-center text-[20px]  text-bold text-white"
-            style={{ backgroundColor: "#EE6718" }}
-          >
-            Projects
-          </div>
+          <a href="https://drive.google.com/file/d/1AqC2dYXw6IhNaw9EsTffVPKQsh55y5q2/view?usp=sharing">
+            <div
+              className="w-[150px] h-[50px] rounded-3xl flex items-center justify-center text-[20px]  font-bold text-white"
+              style={{ backgroundColor: "#EE6718" }}
+            >
+              MY CV
+            </div>
+          </a>
         </div>
         <div className="col-span-1 flex items-center justify-center  order-first lg:order-last">
           <div
